@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'A very helpful text',
+        helpText: 'Under construction',
         title: 'Help',
         name: 'Bryan',
         icon: 'img/weather.png'
@@ -64,7 +64,9 @@ app.get('/weather', (req,res) => {
             res.send({
                 address: req.query.address,
                 location: place,
-                forecast: summary
+                forecast: summary,
+                rain,
+                temperature
             });
         });
     });

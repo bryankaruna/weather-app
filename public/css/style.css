@@ -15,8 +15,8 @@ body{
 }
 
 footer{
-    color: black;
-    border-top: 1px solid darkblue;
+    color: darkslategray;
+    border-top: 1px solid darkcyan;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -24,6 +24,10 @@ footer{
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+}
+
+header{
+    margin: 5vh 0;
 }
 
 header a{
